@@ -105,13 +105,20 @@ H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-	font-family: $sans-serif;
-	text-rendering: optimizelegibility;
-	font-weight: 500;
-	/*
-	if you're going to use webfonts, be sure to check your weights
-	http://css-tricks.com/watch-your-font-weight/
-	*/
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	color: #222222;
+	text-rendering: optimizeLegibility;
+	margin-top: 0.2em;
+	margin-bottom: 0.5em;
+	line-height: 1.2125em; 
+
+	h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+		font-size: 60%;
+		color: #6f6f6f;
+		line-height: 0;
+		}
 
 	/* removing text decoration from all headline links */
 	a {
@@ -120,30 +127,34 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 
 h1, .h1 {
-	font-size: 2.5em;
+	font-size: 2.125em;
 	line-height: 1.333em;
 }
 
 h2, .h2 {
-	font-size: 1.75em;
+	font-size: 1.6875em;
 	line-height: 1.4em;
 	margin-bottom: 0.375em;
 }
 
 h3, .h3 {
-	font-size: 1.125em;
+	font-size: 1.375em;
 }
 
 h4, .h4 {
-	font-size: 1.1em;
+	font-size: 1.125em;
 	font-weight: 700;
 }
 
 h5, .h5 {
-	font-size: 0.846em;
+	font-size: 1.125em;
 	line-height: 2.09em;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+}
+
+h6, .h6 {
+  font-size: 1em; 
 }
 
 /*********************

@@ -1,5 +1,5 @@
 /******************************************************************
-Site Name: American Heart Association
+Site Name: Sass Foundation Starter Kit
 Author: Clint Hubbard Jr
 
 Stylesheet: Foundation-4 Grid Stylesheet
@@ -55,11 +55,64 @@ img {
 .map_canvas embed,
 .map_canvas object {
   max-width: none !important; }
+  
+/* OOCSS */
+.full {
+	width: 100%;
+}
 
-.left {
+.spt {
+	margin-top: 20px !important;
+}
+
+.spb {
+	margin-bottom: 20px !important;
+}
+
+.spl {
+	margin-left: 20px !important;
+}
+
+.spr {
+	margin-right: 20px !important;
+}
+
+.dspt {
+	margin-top: 40px !important;
+}
+
+.no-p {
+	padding: 0 !important;
+}
+
+.no-m {
+	margin: 0 !important;
+}
+
+.no-mt {
+	margin-top: 0px !important;
+}
+
+.no-mb {
+	margin-bottom: 0px !important;
+}
+
+.no-ml {
+	margin-left: 0px !important;
+}
+
+.no-mr {
+	margin-right: 0px !important;
+}
+
+.pad-b {
+	padding-bottom: 20px;
+}
+
+.fl {
   float: left !important; }
 
-.right {
+.fr {
   float: right !important; }
 
 .text-left {
@@ -1066,39 +1119,6 @@ p {
     font-size: 0.875em;
     line-height: 1.35;
     font-style: italic; }
-
-/* Default header styles */
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  color: #222222;
-  text-rendering: optimizeLegibility;
-  margin-top: 0.2em;
-  margin-bottom: 0.5em;
-  line-height: 1.2125em; }
-  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-    font-size: 60%;
-    color: #6f6f6f;
-    line-height: 0; }
-
-h1 {
-  font-size: 2.125em; }
-
-h2 {
-  font-size: 1.6875em; }
-
-h3 {
-  font-size: 1.375em; }
-
-h4 {
-  font-size: 1.125em; }
-
-h5 {
-  font-size: 1.125em; }
-
-h6 {
-  font-size: 1em; }
 
 hr {
   border: solid #dddddd;
